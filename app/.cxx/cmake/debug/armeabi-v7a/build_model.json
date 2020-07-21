@@ -171,7 +171,6 @@
       "project": {
         "compilerSettingsCacheFolder": "E:\\Projets\\sanbot\\.cxx",
         "cxxFolder": "E:\\Projets\\sanbot\\.cxx",
-        "ideBuildTargetAbi": "armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -195,7 +194,10 @@
     "objFolder": "E:\\Projets\\sanbot\\app\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "prefabDirectory": "E:\\Projets\\sanbot\\app\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
