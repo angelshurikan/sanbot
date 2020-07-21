@@ -1,17 +1,15 @@
 package fr.mylocalphone.sanbot.sanbot;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.qihancloud.opensdk.base.TopBaseActivity;
-import com.qihancloud.opensdk.beans.FuncConstant;
-import com.qihancloud.opensdk.function.beans.EmotionsType;
-import com.qihancloud.opensdk.function.beans.LED;
-import com.qihancloud.opensdk.function.unit.HardWareManager;
-import com.qihancloud.opensdk.function.unit.SpeechManager;
-import com.qihancloud.opensdk.function.unit.SystemManager;
+import com.sanbot.opensdk.base.TopBaseActivity;
+import com.sanbot.opensdk.beans.FuncConstant;
+import com.sanbot.opensdk.function.beans.EmotionsType;
+import com.sanbot.opensdk.function.beans.LED;
+import com.sanbot.opensdk.function.unit.HardWareManager;
+import com.sanbot.opensdk.function.unit.SpeechManager;
+import com.sanbot.opensdk.function.unit.SystemManager;
 
 public abstract class Dance1 extends TopBaseActivity {
 
@@ -41,7 +39,7 @@ public abstract class Dance1 extends TopBaseActivity {
         SystemManager systemManager = (SystemManager) getUnitManager(FuncConstant.SYSTEM_MANAGER);
         systemManager.showEmotion(EmotionsType.SMILE);
 
-        nextEtape();
+        //nextEtape();
     }
 
     private void nextEtape() {
@@ -51,8 +49,8 @@ public abstract class Dance1 extends TopBaseActivity {
                     sleep(15000);
                 } catch (Exception e) {
                 }
-                Intent intent = new Intent(getApplicationContext(), Media2.class);
-                startActivity(intent);
+//                Intent intent = new Intent(getApplicationContext(), Dance.class);
+//                startActivity(intent);
             }
         };
         t.start();

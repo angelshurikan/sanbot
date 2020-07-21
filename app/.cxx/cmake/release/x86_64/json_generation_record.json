@@ -1,7 +1,7 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 19 min SDK version: x86_64",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86_64",
     "file": "E:\\Projets\\sanbot\\app\\CMakeLists.txt",
     "tag": "release|x86_64"
   },
@@ -37,7 +37,7 @@
   },
   {
     "level": "INFO",
-    "message": "- force flag, will remove stale json folder",
+    "message": "- command changed from previous, will remove stale json folder",
     "file": "E:\\Projets\\sanbot\\app\\CMakeLists.txt",
     "tag": "release|x86_64"
   },
@@ -55,7 +55,7 @@
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : D:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HE:\\Projets\\sanbot\\app\n-DCMAKE_FIND_ROOT_PATH\u003dE:\\Projets\\sanbot\\app\\.cxx\\cmake\\release\\prefab\\x86_64\\prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003dx86_64\n-DANDROID_NDK\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\n-DANDROID_PLATFORM\u003dandroid-19\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\n-DCMAKE_ANDROID_NDK\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Projets\\sanbot\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\n-DCMAKE_MAKE_PROGRAM\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d19\n-BE:\\Projets\\sanbot\\app\\.cxx\\cmake\\release\\x86_64\n-GNinja\njvmArgs : \n\n",
+    "message": "executing cmake Executable : D:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe\narguments : \n-HE:\\Projets\\sanbot\\app\n-DCMAKE_FIND_ROOT_PATH\u003dE:\\Projets\\sanbot\\app\\.cxx\\cmake\\release\\prefab\\x86_64\\prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake\n-DANDROID_ABI\u003dx86_64\n-DANDROID_NDK\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\n-DCMAKE_ANDROID_NDK\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Projets\\sanbot\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\n-DCMAKE_MAKE_PROGRAM\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d16\n-BE:\\Projets\\sanbot\\app\\.cxx\\cmake\\release\\x86_64\n-GNinja\njvmArgs : \n\n",
     "file": "E:\\Projets\\sanbot\\app\\CMakeLists.txt",
     "tag": "release|x86_64"
   },
@@ -97,7 +97,7 @@
   },
   {
     "level": "INFO",
-    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003dE:\\\\Projets\\\\sanbot\\\\app\\\\.cxx\\\\cmake\\\\release\\\\prefab\\\\x86_64\\\\prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.3.6528147\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86_64\",\n    \"-DANDROID_NDK\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.3.6528147\",\n    \"-DANDROID_PLATFORM\\u003dandroid-19\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86_64\",\n    \"-DCMAKE_ANDROID_NDK\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.3.6528147\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dE:\\\\Projets\\\\sanbot\\\\app\\\\build\\\\intermediates\\\\cmake\\\\release\\\\obj\\\\x86_64\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d19\"\n  ]\n}\n",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003dE:\\\\Projets\\\\sanbot\\\\app\\\\.cxx\\\\cmake\\\\release\\\\prefab\\\\x86_64\\\\prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.3.6528147\\\\build\\\\cmake\\\\android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003dx86_64\",\n    \"-DANDROID_NDK\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.3.6528147\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003dx86_64\",\n    \"-DCMAKE_ANDROID_NDK\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\21.3.6528147\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003dE:\\\\Projets\\\\sanbot\\\\app\\\\build\\\\intermediates\\\\cmake\\\\release\\\\obj\\\\x86_64\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003dD:\\\\Users\\\\angel\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.10.2.4988404\\\\bin\\\\ninja.exe\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\"\n  ]\n}\n",
     "file": "E:\\Projets\\sanbot\\app\\CMakeLists.txt",
     "tag": "release|x86_64"
   },

@@ -1,6 +1,6 @@
 {
   "abi": "ARMEABI_V7A",
-  "abiPlatformVersion": 19,
+  "abiPlatformVersion": 16,
   "buildSettings": {
     "environmentVariables": []
   },
@@ -41,7 +41,7 @@
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-19"
+          "value": "android-16"
         },
         {
           "name": "CMAKE_ANDROID_ARCH_ABI",
@@ -69,7 +69,7 @@
         },
         {
           "name": "CMAKE_SYSTEM_VERSION",
-          "value": "19"
+          "value": "16"
         }
       ]
     }
@@ -171,6 +171,7 @@
       "project": {
         "compilerSettingsCacheFolder": "E:\\Projets\\sanbot\\.cxx",
         "cxxFolder": "E:\\Projets\\sanbot\\.cxx",
+        "ideBuildTargetAbi": "armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -194,10 +195,7 @@
     "objFolder": "E:\\Projets\\sanbot\\app\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
-      "X86_64"
+      "ARMEABI_V7A"
     ],
     "prefabDirectory": "E:\\Projets\\sanbot\\app\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []

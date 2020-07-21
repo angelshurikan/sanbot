@@ -16,37 +16,15 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Media1"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Media2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Media3"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Media4"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Dance1"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Dance2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Dance3"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Dance4"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

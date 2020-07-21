@@ -42,14 +42,14 @@ CMAKE SERVER: {
     "-DCMAKE_TOOLCHAIN_FILE\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
     "-DANDROID_ABI\u003dx86_64",
     "-DANDROID_NDK\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147",
-    "-DANDROID_PLATFORM\u003dandroid-19",
+    "-DANDROID_PLATFORM\u003dandroid-16",
     "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
     "-DCMAKE_ANDROID_NDK\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Projets\\sanbot\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64",
     "-DCMAKE_MAKE_PROGRAM\u003dD:\\Users\\angel\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
-    "-DCMAKE_SYSTEM_VERSION\u003d19"
+    "-DCMAKE_SYSTEM_VERSION\u003d16"
   ]
 }
 
