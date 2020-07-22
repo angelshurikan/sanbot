@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.mylocalphone.sanbot.sanbot">
-
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    package="com.sanbot.librarydemod">
 
     <application
         android:allowBackup="true"
@@ -14,18 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".video.MediaControlActivity" />
+        <activity android:name=".video.SoftDecodeActivity" />
+        <activity android:name=".HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Dance1"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SystemControlActivity" />
+        <activity android:name=".SpeechControlActivity" />
+        <activity android:name=".HardwareControlActivity" />
+        <activity android:name=".IRSensorActivity" />
+        <activity android:name=".UltrasonicActivity" />
+        <activity android:name=".HandControlActivity" />
+        <activity android:name=".HeadControlActivity" />
+        <activity android:name=".WheelControlActivity" />
     </application>
 
 </manifest>
