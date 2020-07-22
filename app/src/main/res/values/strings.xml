@@ -56,8 +56,8 @@
     <string name="robot_is_speaking">Robot is talking</string>
     <string name="robot_isnot_speaking">Robot is not speaking</string>
 
-    <!--菜单控制相关-->
-    <string name="title">title</string>
+    <!-- Contrôle du menu lié -->
+    <string name="title">CoucouCorp</string>
     <string name="status">status</string>
     <string name="speech_control">Speech control</string>
     <string name="hardware_control">Hardware control</string>
@@ -69,7 +69,7 @@
     <string name="projector_control">Projector control</string>
     <string name="modularity_control">Modularity control</string>
 
-    <!--语音控制合成相关-->
+    <!-- Synthèse de contrôle de la parole -->
     <string name="speech_synthesize_start">Start synthesize</string>
     <string name="speech_synthesize_pause">Pause synthesize</string>
     <string name="speech_synthesize_continue">Continue synthesize</string>
@@ -88,17 +88,17 @@
     <string name="yes">yes</string>
     <string name="no">no</string>
     <string name="speech_synthesize_range">0~100</string>
-    <!--语音控制休眠、唤醒相关-->
+    <!-- Hibernation par commande vocale, liée au réveil -->
     <string name="speech_sleep">Sleep</string>
     <string name="speech_wakeup">Wakeup</string>
     <string name="speech_wakeup_status">The robot turn into wakeup state</string>
     <string name="speech_sleep_status">The robot turn into sleep state</string>
-    <!--语音控制识别相关-->
+    <!-- Reconnaissance de la commande vocale -->
     <string name="intercept_message">Intercept message</string>
     <string name="speech_recognize_result">Recognize result :</string>
     <string name="speech_recognize_volume">Recognize volume :</string>
 
-    <!--硬件控制相关-->
+    <!-- Contrôle du matériel -->
     <string name="white_light_level">White light level</string>
     <string name="open_white_light">Open white light</string>
     <string name="close_white_light">Close white light</string>
@@ -154,7 +154,7 @@
     <string name="led_duration_range">1~255</string>
     <string name="led_random_range">1~7</string>
 
-    <!--手臂部分-->
+    <!-- partie du bras -->
     <string-array name="hand_parts">
         <item></item>
         <item>Left finger</item>
@@ -165,7 +165,7 @@
         <item>Right arm</item>
     </string-array>
 
-    <!--手臂状态-->
+    <!-- état du bras -->
     <string-array name="hand_status">
         <item>Stop</item>
         <item>Processing</item>
@@ -175,7 +175,7 @@
         <item>Irregular</item>
     </string-array>
 
-    <!--系统管理-->
+    <!-- gestion du système -->
     <string name="battery_level">Battery level</string>
     <string name="battery_state">Battery state</string>
     <string name="charging_by_wire">Charging by wire</string>
@@ -193,7 +193,7 @@
     <string name="key_status_callback">Button event callback</string>
     <string name="obstacle_status_callback">Robot obstacle avoidance state callback</string>
 
-    <!--按键-->
+    <!--frappes-->
     <string name="key_back">Back button</string>
     <string name="key_remote">Remote sensing button</string>
     <string-array name="key_status">
@@ -209,7 +209,7 @@
         <item>No button status</item>
     </string-array>
 
-    <!--机器人避障状态-->
+    <!--Statut d'évitement des obstacles aux robots-->
     <string name="obstacle_open">Open</string>
     <string name="obstacle_close">Closed</string>
     <string-array name="obstacle_status">
@@ -262,7 +262,7 @@
         <item>down</item>
     </string-array>
 
-    <!--手部运动-->
+    <!--mouvement de la main-->
     <string name="no_angle_move">No angle move</string>
     <string-array name="hand_action">
         <item>up</item>
@@ -287,7 +287,7 @@
 
     <string name="absolute_angle_move">Absolute angle move</string>
 
-    <!--轮子运动-->
+    <!--mouvement des roues-->
     <string name="wheel_angle">Angle</string>
     <string name="wheel_angle_range">0~200</string>
     <string name="duration">duration</string>

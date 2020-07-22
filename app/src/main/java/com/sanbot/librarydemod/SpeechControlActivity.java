@@ -94,13 +94,13 @@ public class SpeechControlActivity extends TopBaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         register(SpeechControlActivity.class);
-        //屏幕常亮
+        //L'écran toujours allumé
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_speech_control);
         ButterKnife.bind(this);
-        //初始化变量
+        //Initialisation des variables
         speechManager = (SpeechManager) getUnitManager(FuncConstant.SPEECH_MANAGER);
 
         initListener();
@@ -181,7 +181,7 @@ public class SpeechControlActivity extends TopBaseActivity {
             }
         });
 
-        //语音合成状态回调
+        //Synthèse vocale Rappel de l'état
         speechManager.setOnSpeechListener(new SpeakListener() {
             @Override
             public void onSpeakStatus(@NonNull SpeakStatus speakStatus) {
@@ -205,44 +205,44 @@ public class SpeechControlActivity extends TopBaseActivity {
             , R.id.tv_speech_synthesize_stop, R.id.tv_speech_sleep, R.id.tv_speech_wakeup, R.id.tv_speech_speaking})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            //开始合成语音
+            //Commencez à synthétiser la parole.
             case R.id.tv_speech_synthesize_start:
                 SpeakOption speakOption = new SpeakOption();
-                //设置合成语言
+                //Définir le langage de synthèse
                 if (rgLang.getCheckedRadioButtonId() == R.id.rb_chinese) {
                     speakOption.setLanguageType(SpeakOption.LAG_CHINESE);
                 } else if (rgLang.getCheckedRadioButtonId() == R.id.rb_english) {
                     speakOption.setLanguageType(SpeakOption.LAG_ENGLISH_US);
                 }
-                //设置合成语速
+                //Régler le débit de la parole synthétisée
                 String speed = etSpeed.getText().toString();
                 if (!TextUtils.isEmpty(speed) && Integer.parseInt(speed) >= 0 && Integer.parseInt(speed) <= 100) {
                     speakOption.setSpeed(Integer.parseInt(speed));
                 }
-                //设置合成声调
+                //Donner des tons synthétiques
                 String tone = etTone.getText().toString();
                 if (!TextUtils.isEmpty(tone) && Integer.parseInt(tone) >= 0 && Integer.parseInt(tone) <= 100) {
                     speakOption.setIntonation(Integer.parseInt(tone));
                 }
                 speechManager.startSpeak(etText.getText().toString(), speakOption);
                 break;
-            //暂停合成语音
+            //Pause du discours de synthèse
             case R.id.tv_speech_synthesize_pause:
                 speechManager.pauseSpeak();
                 break;
-            //继续合成语音
+            //Continuez à synthétiser le discours.
             case R.id.tv_speech_synthesize_continue:
                 speechManager.resumeSpeak();
                 break;
-            //停止合成语音
+            //Arrêtez de synthétiser la parole.
             case R.id.tv_speech_synthesize_stop:
                 speechManager.stopSpeak();
                 break;
-            //休眠
+            // dort
             case R.id.tv_speech_sleep:
                 speechManager.doSleep();
                 break;
-            //唤醒
+            //réveiller qqn.
             case R.id.tv_speech_wakeup:
                 if (wakeupOption.equals("default")) {
                     speechManager.doWakeUp();
@@ -252,7 +252,7 @@ public class SpeechControlActivity extends TopBaseActivity {
                 wakeUpOption.setLanguageType(wakeupOption);
                 speechManager.doWakeUp(wakeUpOption);
                 break;
-            //机器人是否正在说话
+            //Le robot parle-t-il ?
             case R.id.tv_speech_speaking:
                 if (speechManager.isSpeaking().getResult().equals("1")) {
                     tvSpeakingResult.setText(R.string.speaking);
